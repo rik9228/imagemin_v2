@@ -1,0 +1,17 @@
+{
+  "name": "imagemin_v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node image-format-converter.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ansi-colors": "^4.1.3",
+    "fancy-log": "^2.0.0",
+    "globule": "^1.3.4",
+    "sharp": "^0.33.4"
+  }
+}
