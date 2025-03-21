@@ -10,15 +10,15 @@ class ImageFormatConverter {
         this.destBase = options.destBase || 'dist'
         this.includeExtensionName = options.includeExtensionName || false
         this.formats = options.formats || [
-            {
-                type: 'avif',
-                quality: 80
-            },
-            // Webp変換（画質を損なうので、必要に応じて使う）
             // {
-            //     type: 'webp',
+            //     type: 'avif',
             //     quality: 80
-            // }
+            // },
+            // Webp変換（画質を損なうので、必要に応じて使う）
+            {
+                type: 'webp',
+                quality: 80
+            }
         ]
 
         // Google推奨の画像圧縮率85 （https://developers.google.com/speed/docs/insights/OptimizeImages?hl=ja#gif%E3%80%81png%E3%80%81jpeg-%E7%94%BB%E5%83%8F%E3%81%AE%E6%9C%80%E9%81%A9%E5%8C%96）
